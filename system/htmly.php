@@ -13,7 +13,7 @@ get_language();
 if (config('timezone')) {
     date_default_timezone_set(config('timezone'));
 } else {
-    date_default_timezone_set('Asia/Jakarta');
+    date_default_timezone_set('Asia/Kolkata');
 }
 
 // Publish scheduled post
